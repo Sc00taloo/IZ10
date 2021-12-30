@@ -1,0 +1,3 @@
+﻿  IZ10_2.cpp
+C:\Users\User\source\repos\IZ10_2\IZ10_2\IZ10_2.cpp(73,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  IZ10_2.vcxproj -> C:\Users\User\source\repos\IZ10_2\Debug\IZ10_2.exe
