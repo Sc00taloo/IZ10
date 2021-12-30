@@ -13,18 +13,20 @@ void WordDouble(string t, int s, int n, int WordSize, int k, int m)
 
         for (int i = 0; i < WordSize; i++)
         {
-            if (t[i] == '1')
+            if (t[i] == '0')
                 one++;
-            if (t[i] == '2')
+            if (t[i] == '1')
                 two++;;
-            if (t[i] == '3')
+            if (t[i] == '2')
                 three++;
-            if (t[i] == '4')
+            if (t[i] == '3')
                 four++;
-            if (t[i] == '5')
+            if (t[i] == '4')
                 five++;
-            if (t[i] == '6')
+            if (t[i] == '5')
                 six++;
+            if (t[i] == '6')
+                seven++;
             if (t[i] == '7')
                 eight++;
             if (t[i] == '8')
@@ -79,6 +81,7 @@ void main() {
     cin >> k;
     cout << "Enter the number of repetitions over" << endl;
     cin >> m;
+
     bool flag = true;
     while (flag) {
         if (k + m > WordSize) {
@@ -91,6 +94,7 @@ void main() {
         else
             flag == false;
     }
+
     f << "Alphabet : {a, b, c, d, e, f, g, h, j, k}" << endl;
     WordDouble("", 1, n, WordSize, k, m);
     cout << "File 'testik.txt' filled up" << endl;
